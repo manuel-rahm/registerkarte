@@ -1,1 +1,35 @@
-html:5
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registerkarte</title>
+</head>
+<body>
+    <header>
+            <nav class="nav">
+                    <a class="nav-link" href="#">Einführung</a>
+                    <a class="nav-link" href="create.html">Registerkarte erstellen</a>
+                    <a class="nav-link" href="use.html">Benutzen</a>
+            </nav>
+    </header>
+    <h1>Einführung</h1>
+    <p>Wenn Sie auf einen der Reiter der Registerkarten klicken, wird das zugehörige Feld angezeigt. Registerkarten, die nicht angezeigt werden, sind versteckt.</p>
+    <ul class="tab-list">
+        <li class="active"><a class="tab-control" href="#tab-1">Yasuo</a></li>
+        <li><a class="tab-control" href="#tab-2">Ahri</a></li>
+        <li><a class="tab-control" href="#tab-3">Jinx</a></li>
+    </ul>
+    <div class="tab-panel active" id="tab-1">Yasuo ist stark im Late. Er ist ein sehr starker Bruiser und Nahkämpfer.</div>
+    <div class="tab-panel" id="tab-2">Ahri ist ein Mage mit sehr starkem Early und Mid. Schwächen sind Tanky-Bruiser.</div>
+    <div class="tab-panel" id="tab-3">Jinx ist ein ADC mit gutem Late. Schwach gegen starke Angriffe und CC.</div>
+<footer>
+    <h5 class="sky">Made by Manuel Rahm</h5>
+</footer>
+<script src="javascript.js"></script>
+</body>
+</html>
