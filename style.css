@@ -69,6 +69,8 @@ body {
 #photo-viewer img {
   max-height: 900px;
 }
+<<<<<<< HEAD
+=======
 
 .tab-panel {
   display: none;
@@ -77,4 +79,5 @@ body {
 .tab-panel.active {
   display: block;
 }
+>>>>>>> 702d21d33e4715b4e634510affa5b80f6ceae75b
 /*# sourceMappingURL=style.css.map */
